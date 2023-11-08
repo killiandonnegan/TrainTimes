@@ -26,5 +26,5 @@ yarn-error.log*
 .netlify
 
 
-/config
+/src/config
 
