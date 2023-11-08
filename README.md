@@ -14,7 +14,6 @@ The app can be tested here: https://train-times-43c64.web.app/
 * Irish Rail API
 
 ## Design
-![Alt Text](src/images/usecase.png)
 ### Frontend
 Frontend developed with ReactJS using the create-react-app boiler plate.
 
