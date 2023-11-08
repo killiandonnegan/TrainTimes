@@ -1,5 +1,13 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +43,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.train-item {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.stations-list {
+  flex: 1;
+}
+
+.station-codes {
+  width: 200px; /* Adjust the width as needed to position it on the side */
+}
+
+.signout-button-container, .remove-button-container, .link-container {
+  padding: 20px;
+  margin: auto;
+}
+
+.signout-button {
+  display: block; /* Display the button on its own line */
+  margin: auto;
+  margin-top: 10px;
+}
+
+.station {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2PX solid black;
+  width: 60%;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+.dark-mode-button {
+  background-color: #333; /* Dark background colour */
+  color: #fff; 
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show cursor on hover */
+}
+
+.dark-mode-button:hover {
+  background-color: #555; /* Change colour on hover */
+}
+
+.dark-mode-button-container {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
 }
